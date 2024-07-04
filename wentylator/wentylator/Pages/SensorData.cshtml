@@ -1,0 +1,28 @@
+﻿@page
+@using CoolFan.Pages
+@model SensorDataModel
+@{
+    ViewData["Title"] = "Sensor Data";
+}
+
+<h2>Sensor Data</h2>
+
+<form method="post">
+    <button type="submit" asp-page-handler="FetchData">Fetch Sensor Data</button>
+    <button type="submit" asp-page-handler="TurnFanOnAsync">Turn Fan On</button>
+    <button type="submit" asp-page-handler="TurnFanOffAsync">Turn Fan Off</button>
+</form>
+
+@if (Model.SensorData != null)
+{
+    <p>Temperature: @Model.SensorData.Temperature °C</p>
+    <p>Humidity: @Model.SensorData.Humidity %</p>
+}
+else if (Model.ErrorMessage != null)
+{
+    <p style="color: red;">Error: @Model.ErrorMessage</p>
+}
+@if (Model.CommandMessage != null)
+{
+    <p>@Model.CommandMessage</p>
+}

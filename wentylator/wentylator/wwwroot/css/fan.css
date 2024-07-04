@@ -1,0 +1,28 @@
+﻿@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.fan-icon {
+    width: 75px;
+    height: 75px;
+    background-image: url('/coolfan_v2.ico');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.rotate {
+    animation: rotate 2s linear infinite;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kuba\\Documents\\GitHub\\CoolFan\\High-level\\wentylator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E82EE29-AB1A-4023-9CA2-7BE4839BD1CB}|wentylator\\CoolFan.csproj|c:\\users\\kuba\\documents\\github\\coolfan\\high-level\\wentylator\\wentylator\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E82EE29-AB1A-4023-9CA2-7BE4839BD1CB}|wentylator\\CoolFan.csproj|solutionrelative:wentylator\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E82EE29-AB1A-4023-9CA2-7BE4839BD1CB}|wentylator\\CoolFan.csproj|c:\\users\\kuba\\documents\\github\\coolfan\\high-level\\wentylator\\wentylator\\pages\\fansettings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E82EE29-AB1A-4023-9CA2-7BE4839BD1CB}|wentylator\\CoolFan.csproj|solutionrelative:wentylator\\pages\\fansettings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E82EE29-AB1A-4023-9CA2-7BE4839BD1CB}|wentylator\\CoolFan.csproj|c:\\users\\kuba\\documents\\github\\coolfan\\high-level\\wentylator\\wentylator\\pages\\settings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E82EE29-AB1A-4023-9CA2-7BE4839BD1CB}|wentylator\\CoolFan.csproj|solutionrelative:wentylator\\pages\\settings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E82EE29-AB1A-4023-9CA2-7BE4839BD1CB}|wentylator\\CoolFan.csproj|c:\\users\\kuba\\documents\\github\\coolfan\\high-level\\wentylator\\wentylator\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E82EE29-AB1A-4023-9CA2-7BE4839BD1CB}|wentylator\\CoolFan.csproj|solutionrelative:wentylator\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kuba\\Documents\\GitHub\\CoolFan\\High-level\\wentylator\\wentylator\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "wentylator\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Kuba\\Documents\\GitHub\\CoolFan\\High-level\\wentylator\\wentylator\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "wentylator\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAQwGAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T21:19:46.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FanSettings.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kuba\\Documents\\GitHub\\CoolFan\\High-level\\wentylator\\wentylator\\Pages\\FanSettings.cshtml",
+              "RelativeDocumentMoniker": "wentylator\\Pages\\FanSettings.cshtml",
+              "ToolTip": "C:\\Users\\Kuba\\Documents\\GitHub\\CoolFan\\High-level\\wentylator\\wentylator\\Pages\\FanSettings.cshtml",
+              "RelativeToolTip": "wentylator\\Pages\\FanSettings.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAIwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T21:18:56.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Settings.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kuba\\Documents\\GitHub\\CoolFan\\High-level\\wentylator\\wentylator\\Pages\\Settings.cshtml",
+              "RelativeDocumentMoniker": "wentylator\\Pages\\Settings.cshtml",
+              "ToolTip": "C:\\Users\\Kuba\\Documents\\GitHub\\CoolFan\\High-level\\wentylator\\wentylator\\Pages\\Settings.cshtml",
+              "RelativeToolTip": "wentylator\\Pages\\Settings.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T21:18:28.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kuba\\Documents\\GitHub\\CoolFan\\High-level\\wentylator\\wentylator\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "wentylator\\Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Kuba\\Documents\\GitHub\\CoolFan\\High-level\\wentylator\\wentylator\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "wentylator\\Pages\\Privacy.cshtml",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAIwGAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T21:16:39.329Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

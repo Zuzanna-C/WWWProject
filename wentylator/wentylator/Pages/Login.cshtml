@@ -1,0 +1,23 @@
+﻿@page
+@model CoolFan.Pages.LoginModel
+@{
+    ViewData["Title"] = "Log In";
+}
+
+<h2>Log In</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label for="Username">Username</label>
+        <input type="text" class="form-control" id="Username" name="Username" />
+    </div>
+    <div class="form-group">
+        <label for="Password">Password</label>
+        <input type="password" class="form-control" id="Password" name="Password" />
+    </div>
+    <button type="submit" class="btn btn-primary">Log In</button>
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <div class="alert alert-danger mt-3">@Model.ErrorMessage</div>
+    }
+</form>

@@ -1,0 +1,13 @@
+﻿@page
+@model CoolFan.Pages.LogoutModel
+@{
+    ViewData["Title"] = "Wylogowywanie...";
+}
+
+<h2>Logging out...</h2>
+
+<form method="post" id="logoutForm"></form>
+
+<script>
+    document.getElementById('logoutForm').submit();
+</script>

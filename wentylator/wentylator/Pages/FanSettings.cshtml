@@ -1,0 +1,41 @@
+﻿@page
+@model wentylator.Pages.FanSettings.FanSettingsModel
+@{
+    ViewData["Title"] = "Admin Panel";
+}
+
+@if (User.Identity.IsAuthenticated)
+{
+    <h1>Fan Settings</h1>
+
+    <div>
+        <h3>Sensor Settings</h3>
+        <form method="post">
+            <div class="form-group">
+                <label for="sensorIp">Fan IP:</label>
+                <input type="text" id="sensorIp" name="sensorIp" value="@Model.SensorIp" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary">Save</button>
+        </form>
+    </div>
+
+    @if (Model.IsDeviceAvailable.HasValue)
+    {
+        <div class="alert @(Model.IsDeviceAvailable.Value ? "alert-success" : "alert-danger") mt-3">
+            @if (Model.IsDeviceAvailable.Value)
+            {
+                <p>The device is available at IP address @Model.SensorIp.</p>
+            }
+            else
+            {
+                <p>The device is unavailable at IP address @Model.SensorIp.</p>
+            }
+        </div>
+    }
+}
+else
+{
+    <div class="alert alert-danger" role="alert">
+        You must be logged in to access this page.
+    </div>
+}
